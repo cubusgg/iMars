@@ -1,0 +1,64 @@
+.commentWrapper {
+    margin: 15px;
+    font-size: 24px;
+    padding: 1rem 1rem;
+    border-radius: 20px;
+}
+
+.commentTop {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.commentTopLeft {
+    display: flex;
+    align-items: center;
+}
+
+.commentProfileImage {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 10px;
+}
+
+.commentUsername {
+    font-size: 15px;
+    margin: 0 10px;
+}
+
+.commentDate {
+    font-size: 12px;
+}
+
+.commentCenter {
+    margin: 15px 10px 30px 0;
+    word-wrap: break-word;
+}
+
+.commentBottom {
+    margin-bottom: 5px;
+}
+
+.commentBottomLeft {
+    display: flex;
+    align-items: center;
+}
+
+.rocketCommentButton {
+    width: 25px;
+    height: 25px;
+    margin: 0 7px 0 0;
+    cursor: pointer;
+}
+
+.commentRocketCounter {
+    font-size: 16px;
+}
+
+.commentText {
+    font-size: 17px;
+    margin-right: 5px;
+}

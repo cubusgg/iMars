@@ -1,0 +1,26 @@
+.centerPosts {
+    flex: 9;
+    overflow-y: scroll;
+    height: calc(100vh - 90px);
+    scrollbar-width: none;
+    border-radius: 10px;
+}
+
+.profileCenterPosts {
+    flex: 9;
+    border-radius: 10px;
+    scrollbar-width: none;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+/* Wersja 2
+
+.centerPosts {
+    flex: 3;
+}
+
+*/
+

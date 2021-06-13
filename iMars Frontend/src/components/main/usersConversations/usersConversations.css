@@ -1,0 +1,24 @@
+.friendsItem {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    padding-bottom: 10px;
+}
+
+.friendsListProfileImgContainer {
+    margin: 5px 10px 0 10px;
+    position: relative;
+}
+
+.friendsListProfileImg {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: 10px;
+}
+
+.friendsListUsername {
+    font-weight: normal;
+    font-size: 17px;
+}

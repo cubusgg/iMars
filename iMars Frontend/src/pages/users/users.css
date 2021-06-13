@@ -1,0 +1,40 @@
+.usersWrapper {
+    display: flex;
+}
+
+.usersCenter {
+    flex: 9;
+    display: flex;
+    height: calc(100vh - 90px);
+    overflow-y: scroll;
+    scrollbar-width: none;
+}
+
+.usersChild {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.usersSearchInput {
+    height: 35px;
+    border-radius: 30px;
+    border: none;
+    text-align: center;
+    width: 50%;
+}
+
+.cardChild {
+    width: 200px;
+}
+
+.searchBar {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+
+

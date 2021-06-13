@@ -1,0 +1,4 @@
+.welcomeWrapper {
+    height: calc(80vh - 90px);
+    margin-top: 20vh;
+}

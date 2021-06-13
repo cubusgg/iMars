@@ -1,0 +1,38 @@
+.messageWrapper {
+    margin: 15px;
+    font-size: 24px;
+    padding: 1rem 1rem;
+    border-radius: 20px;
+}
+
+.messageTop {
+    display: flex;
+    align-items: center;
+}
+
+.messageProfileImage {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 10px;
+}
+
+.messageUsername {
+    font-size: 15px;
+    margin: 0 10px;
+}
+
+.messageDate {
+    font-size: 12px;
+}
+
+.messageCenter {
+    margin: 15px 10px 20px 0;
+    word-wrap: break-word;
+}
+
+.messageText {
+    font-size: 16px;
+    margin-right: 5px;
+}

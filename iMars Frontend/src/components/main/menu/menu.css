@@ -1,0 +1,36 @@
+.leftMenu {
+    flex: 3;
+    height: calc(100vh - 140px);
+    margin-right: 4%;
+}
+
+.leftMenuWrapper {
+    border-radius: 20px !important;
+    padding: 10px;
+    width: 100px;
+    margin-left: 6%;
+    margin-top: 14%;
+    position: fixed;
+}
+
+.leftMenuList {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.leftMenuListItem {
+    display: flex;
+    padding-bottom: 20px;
+    justify-content: center;
+}
+
+.leftMenuListItem:last-child {
+    padding-bottom: 0;
+}
+
+.menuPng {
+    height: 45px;
+    width: 45px;
+}
+

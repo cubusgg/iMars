@@ -1,0 +1,69 @@
+.navContainer {
+    height: 90px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.navLeft {
+    flex: 4;
+}
+
+.image {
+    margin-top: 20px;
+    margin-left: 40px;
+    cursor: pointer;
+}
+
+.navCenter {
+    flex: 24;
+}
+
+.searchInput {
+    height: 35px;
+    border-radius: 30px;
+    border: none;
+    width: 40%;
+    text-align: center;
+    margin-left: 25%;
+}
+
+.searchInput:focus {
+    outline: none;
+}
+
+.navRight {
+    flex: 4;
+    display: flex;
+    margin-right: 40px;
+    align-items: center;
+    justify-content: space-between;
+    white-space: nowrap;
+}
+
+.navRightRegister {
+    flex: 7;
+    display: flex;
+    margin-right: 40px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navImage {
+    width: 50px;
+    height: 50px;
+    min-width: 50px;
+    min-height: 50px;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
